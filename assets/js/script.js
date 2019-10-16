@@ -25,7 +25,7 @@
     *  You can manage the helpers */
     $.sp.helpers = {
         setDocumentTitle: function (hash) {
-            document.title = $.sp.options.pages[hash].title + ' | John Sensitive';
+            document.title = $.sp.options.pages[hash].title + ' | 脑书创想';
         },
         checkMobileDevice: function () {
             var md = new MobileDetect(window.navigator.userAgent);
@@ -159,9 +159,9 @@
         home: function (firstTime) {
             if (firstTime) {
                 var typed = new Typed('.pages #home .subtitle .typed', {
-                    strings: ["FRONTEND DEVELOPER", "UX/UI DESIGNER", "WEB DEVELOPER", "GRAPHIC DESIGNER"],
+                    strings: ["IMAGINATION FREE", "CREATEION FREE", "COLLABORATION and IMPROVE", "COLLECTIVE"],
                     typeSpeed: 50,
-                    backDelay: 5000,
+                    backDelay: 2500,
                     loop: true
                 });
             }
